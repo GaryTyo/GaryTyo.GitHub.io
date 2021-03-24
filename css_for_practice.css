@@ -1,0 +1,215 @@
+svg
+{
+    position: fixed;
+}
+
+*{
+  margin: 0px;
+  border-radius: 8px;
+  font-family: Century Gothic;
+  font-size: 18px;
+  letter-spacing: 3px;
+
+}
+
+a {
+  outline: none;
+
+  text-decoration: none;
+
+  background: none;
+}
+
+ol{
+  list-style-type: circle;
+}
+
+li{
+  text-align: left;
+  margin-bottom: 8px;
+
+}
+
+h3{
+  margin-bottom: 8px;
+}
+
+
+button:hover{
+  box-shadow: 6px 6px 0 0 #acdbce;
+}
+
+.header-class{
+  border-radius: 0;
+  background: #c7fcec;
+  width: 100%;
+  border-bottom: 10px solid white;
+  outline: 10px solid #dedee9;
+  margin-bottom: 60px;
+}
+
+.button-area{
+  float: center;
+  width: 80%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button-class button{
+  width: 150px;
+  height: 30px;
+
+  background-color: white;
+  outline: none;
+  border: none;
+  box-shadow: 4px 4px 0 0 #acdbce;
+
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.button-class button:hover{
+  transition-duration: 0.4s;
+  box-shadow: 6px 6px 0 0 #acdbce;
+}
+
+.main-class{
+  width: 80%;
+
+
+}
+
+
+
+.upup
+{
+    width: 40%;
+
+    background: #c7fcec;
+
+    padding: 3px;
+    border: 3px solid #c7fcec;
+
+    box-shadow: 8px 8px 0 #dedee9;
+    margin-bottom: 20px;
+
+}
+
+#train_text{
+  width: 700px;
+
+  background: #ffffff;
+
+
+  border: 10px solid #c7fcec;
+
+  box-shadow: 8px 8px 0 #dedee9;
+
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 4px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-align: left;
+
+  margin-bottom: 15px;
+}
+
+#pas
+{
+  background: #95fd98;
+  border-radius: 2px;
+
+
+}
+
+#green
+{
+  background:  #78ff7c;
+  border-radius: 2px;
+
+
+}
+
+#green1
+{
+  color:  #2fed00;
+}
+
+
+.result
+{
+    float: left;
+    width: 80%;
+    height: 20px;
+
+    position: absolute;
+    top: 35%;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease 0s;
+
+}
+
+.result-class{
+  width: 350px;
+  height: 120px;
+  background: #ffffff;
+
+  padding: 10px;
+  border: 5px solid #c7fcec;
+  box-shadow: 40px 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+.text-result{
+  text-align: left;
+}
+#speed{
+  display: inline-block;
+}
+
+.texty p{
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.img{
+
+  padding: 10px;
+  display: inline-block;
+}
+
+.left{
+  float: left;
+  display: inline-block;
+
+}
+
+.left p{
+  float: left;
+  margin-bottom: 10px;
+}
+
+.right{
+  float: right;
+  display: inline-block;
+}
+
+
+.img button{
+  border: none;
+  outline: none;
+  background: none;
+  box-shadow: none;
+  display: inline-block;
+}
+
+.credit{
+  float: right;
+  text-align: left;
+   position:absolute;
+   bottom:0;
+   right:0;
+}
